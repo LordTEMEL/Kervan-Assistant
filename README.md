@@ -117,10 +117,6 @@ KervanRead()
   memcpy(out, shm->data)
 ```
 
-### Notlar
-> ⚠️ Yalnızca eğitim amaçlıdır. VAC aktif sunucularda kullanmayın.
-
----
 
 ## 🇬🇧 English
 
@@ -231,11 +227,6 @@ KervanRead()
   memcpy(out, shm->data)
 ```
 
-### Notes
-> ⚠️ For educational purposes only. Do not use on VAC-secured servers.
-
----
-
 ## 🇷🇺 Русский
 
 Проект для чтения памяти CS2 на основе Windows kernel driver. Использует синхронизацию KEVENT для взаимодействия kernel-user.
@@ -344,6 +335,3 @@ KervanRead()
   WaitForSingleObject(response) ← KeSetEvent(response)
   memcpy(out, shm->data)
 ```
-
-### Примечания
-> ⚠️ Только в образовательных целях. Не используйте на серверах с активным VAC.
