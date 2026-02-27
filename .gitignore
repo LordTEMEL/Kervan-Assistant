@@ -1,0 +1,38 @@
+# Build çıktıları
+out/
+build/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Driver build çıktıları
+kernelmode/KervanDriver/x64/
+kernelmode/KervanDriver/KervanDriver/x64/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Exe / Sys
+*.exe
+*.sys
+
+# Log dosyaları
+*.log
+*.txt
+!README.md
+
+# Offset dosyaları (runtime'da indiriliyor)
+client.dll.json
+offsets.json
